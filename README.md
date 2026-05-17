@@ -106,7 +106,21 @@ The generated output video includes:
 Bounding boxes around detected clamps
 Clamp IDs
 Real-time clamp count
-Continuous tracking during disk rotation
+Continuous tracking during disk rotation📁 Project Structure
+
+▶️ Training
+
+Run model training:
+
+python train.py
+▶️ Inference & Tracking
+
+Run detection and tracking on video:
+
+python inference.py
+
+The output video will be generated automatically.
+
 📈 Challenges Faced
 
 Several challenges were encountered during development:
